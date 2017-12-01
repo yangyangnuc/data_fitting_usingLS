@@ -1,11 +1,11 @@
-%% some clean jobs
+%% Frist part is linear equation solver using build-in
 clc
 clear all
 close all
 disp('*** clean jobs')
 disp('over')
 
-%% 1st example
+% 1st example
 disp('*** init process ')
 x = 1:4;
 y = [6 5 7 10];
@@ -31,6 +31,10 @@ plot(x,y2,'b-')
 
 
 legend('original data','fitted line','fitted quadric curve')
+
+
+%% Second part is use self-designed least square
+
 
 
 disp('*** Totally Game over! ***')
