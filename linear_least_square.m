@@ -34,6 +34,10 @@ legend('original data','fitted line','fitted quadric curve')
 
 
 %% Second part is use self-designed least square
+x1 = 1:10000;
+y1 = ;
+
+
 
 
 
